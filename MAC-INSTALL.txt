@@ -1,0 +1,17 @@
+Rauding Gym — install on a Mac
+================================
+
+You need Node.js 20+ (https://nodejs.org). Then in Terminal:
+
+  cd ~/Desktop
+  tar -xzf RaudingGym.tar.gz
+  cd RaudingGym
+  npm install
+  npm start          # Electron desktop window
+
+Browser-only (no Electron window):
+
+  npm run web
+  # then open http://127.0.0.1:43147
+
+First launch downloads Electron; that can take a minute. Progress is stored locally (no account).
